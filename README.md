@@ -1,4 +1,4 @@
-# CovScholar — Vertical Search for Coventry (FBL: Economics, Finance & Accounting)
+# Information Retrieval — Vertical Search for Coventry (FBL: Economics, Finance & Accounting)
 
 A polite crawler + lightweight search engine that indexes publications where **at least one co‑author**
 is a member of Coventry University's **School of Economics, Finance and Accounting** on Pure Portal.
