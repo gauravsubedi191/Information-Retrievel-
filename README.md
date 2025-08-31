@@ -19,7 +19,8 @@ python crawler.py
 python indexer.py --in data/publications.jsonl --index data/index.json --postings data/postings.json
 
 # 2a) Search in terminal
-python search_cli.py "financial stability climate risk" --topk 20
+python search_cli.py "financial stability climate risk" --topk 20 
+- for testing
 
 # 2b) Run the Streamlit app (GUI)
 streamlit run search_app.py
