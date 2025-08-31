@@ -15,7 +15,7 @@ is a member of Coventry University's **School of Economics, Finance and Accounti
 ## Quick start
 
 # 1) Build (crawl + index)
-python crawler.py --base https://pureportal.coventry.ac.uk/en/organisations/fbl-school-of-economics-finance-and-accounting/publications/ --out data/publications.jsonl
+python crawler.py
 python indexer.py --in data/publications.jsonl --index data/index.json --postings data/postings.json
 
 # 2a) Search in terminal
