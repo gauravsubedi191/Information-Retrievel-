@@ -68,7 +68,7 @@ data/
 models/
 
 # Ignore classifier outputs (if generated automatically)
-classifier/
+classifier/__pycache__
 
 # ------------------------------
 # Keep these

@@ -379,7 +379,8 @@ def extract_publication_details(web_driver: webdriver.Chrome, publication_url: s
 
 # =========================== Workers ===========================
 def process_publication_batch(publication_batch: List[Dict], run_headless: bool, use_legacy_mode: bool) -> List[Dict]:
-    batch_driver = initialize_webdriver(headless=run_headless, legacy_headless=use_legacy_mode)
+    # batch_driver = initialize_webdriver(headless=run_headless, legacy_headless=use_legacy_mode)
+    batch_driver = initialize_webdriver(run_headless=run_headless, use_legacy_mode=use_legacy_mode)
     processed_publications: List[Dict] = []
     try:
         for batch_index, publication_item in enumerate(publication_batch, 1):

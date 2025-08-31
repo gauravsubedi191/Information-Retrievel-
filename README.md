@@ -13,10 +13,6 @@ is a member of Coventry University's **School of Economics, Finance and Accounti
 - `data/` — JSONL records of publications, index files.
 
 ## Quick start
-```bash
-cd covscholar
-python -m venv .venv && . .venv/bin/activate  # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
 
 # 1) Build (crawl + index)
 python crawler.py --base https://pureportal.coventry.ac.uk/en/organisations/fbl-school-of-economics-finance-and-accounting/publications/ --out data/publications.jsonl
